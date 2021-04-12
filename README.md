@@ -1,5 +1,5 @@
-# component-creater
+# liangguifeng/hyperf-tool
 
 ```
-composer create-project liangguifeng/hyperf-tool
+composer require liangguifeng/hyperf-tool
 ```
