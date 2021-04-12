@@ -17,6 +17,12 @@
             "HyperfTest\\": "tests"
         }
     },
+    "authors": [
+        {
+            "name": "liangguifeng",
+            "email": "1476982312@qq.com"
+        }
+    ],
     "require": {
         "php": ">=7.3",
         "hyperf/framework": "2.1.*",
