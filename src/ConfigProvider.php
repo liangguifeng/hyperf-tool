@@ -2,13 +2,17 @@
 
 declare(strict_types=1);
 /**
- * This file is part of liangguifeng.
+ * This file is part of Hyperf.
  *
- * @link     https://findcat.cn
- * @document https://findcat.cn
- * @contact  1476982312@qq.com
+ * @link     https://www.hyperf.io
+ * @document https://hyperf.wiki
+ * @contact  group@hyperf.io
+ * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 namespace Tool;
+
+
+use Tool\Facade\Listener;
 
 class ConfigProvider
 {
@@ -25,6 +29,9 @@ class ConfigProvider
                         __DIR__,
                     ],
                 ],
+            ],
+            'listeners' => [
+                Listener::class,
             ],
         ];
     }
