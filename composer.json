@@ -1,7 +1,7 @@
 {
     "name": "liangguifeng/hyperf-tool",
     "type": "library",
-    "license": "liangguifeng",
+    "license": "MIT",
     "keywords": [
         "php",
         "hyperf"
