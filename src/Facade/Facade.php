@@ -14,6 +14,9 @@ namespace Tool\Facade;
 use Hyperf\Utils\ApplicationContext;
 use RuntimeException;
 
+/**
+ * Class Facade.
+ */
 abstract class Facade
 {
     // 静态访问
