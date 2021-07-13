@@ -12,6 +12,8 @@ declare(strict_types=1);
 namespace Tool;
 
 
+use Tool\Exception\Handler\ExceptionHandler;
+use Tool\Exception\Handler\ResourceExceptionHandler;
 use Tool\Facade\Listener;
 
 class ConfigProvider
@@ -29,6 +31,14 @@ class ConfigProvider
                         __DIR__,
                     ],
                 ],
+            ],
+            'exceptions' => [
+                'handler' => [
+                    'http' => [
+                        ExceptionHandler::class,
+                        ResourceExceptionHandler::class,
+                    ]
+                ]
             ],
             'listeners' => [
                 Listener::class,
